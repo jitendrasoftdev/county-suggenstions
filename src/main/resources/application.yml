@@ -1,0 +1,22 @@
+server:
+  port: 3000
+spring:
+  application:
+    name: openapi-3.0.0
+  h2:
+    console:
+      enabled: true
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+
+    hibernate:
+       ddl-auto: update
+    #show-sql: true
+
+  datasource:
+    #driver-class-name:
+    #username:
+    #password:
+    url: jdbc:h2:~/openapidb
