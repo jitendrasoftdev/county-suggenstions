@@ -110,7 +110,7 @@ Only important files
           
 ####  Also see on Heroku server
 This is only for testing Or learning purpose. Please don't miss-use this resource.
-   - https://openapi.herokuapp.com/sugget/cowlitz, wa
+   - https://jsdopenapi.herokuapp.com/sugget/cowlitz, wa
 
 
 
