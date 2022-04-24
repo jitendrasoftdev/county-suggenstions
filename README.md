@@ -96,9 +96,9 @@ Only important files
       * select POST url - http://localhost:3000/suggest/save
       * select body tab > raw > choose Json
         -
-         [
          
-            {
+         
+            [{
               "fips": 10052,
               "name": "Name",
               "state": "State"
@@ -107,9 +107,7 @@ Only important files
               "fips": 10053,
               "name": "Name2",
               "state": "State2"
-            }
-            
-          ]
+            }]
           
   ####  Also see on Heroku server
 This is only for testing Or learning purpose. Please don't miss-use this resource.
