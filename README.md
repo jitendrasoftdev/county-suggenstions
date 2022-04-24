@@ -46,7 +46,7 @@ Only important files
             * [model](./src/main/java/com/jsd/openapi/model)
               * [County.java](./src/main/java/com/jsd/openapi/model/County.java)
                 Summary: The County.java, consist table name, and their properties like 
-                - fips : type Integer - Changed String to Integer type because of, to reducing the  data redundancy and inhance the performance as well as optimize the                     data storage into the database. 
+                - fips : type Integer - Changed String to Integer type because of, to reducing the  data redundancy and inhance the performance as well as optimize the                     data storage into the database, and maked this property, primary key. 
                 - name : type String.
                 - state : type String.
             * [repository](./src/main/java/com/jsd/openapi/repository)
