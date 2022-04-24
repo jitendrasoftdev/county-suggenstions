@@ -95,7 +95,7 @@ Only important files
     * [Open postman]():
       * select POST url - http://localhost:3000/suggest/save
       * select body tab > raw > choose Json
-        - [
+         [
             {
               "fips": 10052,
               "name": "Name",
@@ -108,6 +108,11 @@ Only important files
             }
           ]
           
+  ####  Also see on Heroku server
+This is only for testing Or learning purpose. Please don't miss-use this resource.
+   - https://jsdopenapi.herokuapp.com/sugget/cowlitz, wa
+   - https://jsdopenapi.herokuapp.com/suggest/cowl
+   - https://jsdopenapi.herokuapp.com/suggest/wa
 
 
 
