@@ -45,7 +45,10 @@ Only important files
                 Summary: This file is a custom exception and supportive file of <b><u>CountyExceptionHandler.java</u></b> and is intended for when clients request grab nothing results from the database.
             * [model](./src/main/java/com/jsd/openapi/model)
               * [County.java](./src/main/java/com/jsd/openapi/model/County.java)
-                Summary: The County.java, consist table name, and their properties like fips, name, ... .
+                Summary: The County.java, consist table name, and their properties like 
+                - fips : type Integer - Changed String to Integer type because of, to reducing the  data redundancy and inhance the performance as well as optimize the                     data storage into the database. 
+                - name : type String.
+                - state : type String.
             * [repository](./src/main/java/com/jsd/openapi/repository)
               * [CountyRepository.java](./src/main/java/com/jsd/openapi/repository/CountyRepository.java)
                 Summary: The CountyRepository.java is responsible to interact with the database and manipulation the data into the database and is also responsible for grab the information form database and sends to the service layer. In other word the CountyRepository.java is a mediator between service layer and the database.
